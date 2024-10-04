@@ -37,6 +37,8 @@ alias n='node'
 # abbreviations
 # ...
 
+# shell integrations
+zoxide init fish --cmd cd | source
 
 # prompt (starship)
 function starship_transient_prompt_func
