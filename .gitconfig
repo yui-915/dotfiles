@@ -1,0 +1,10 @@
+[user]
+	email = yui300127@gmail.com
+	name = Yui
+[credential]
+	helper = store
+[core]
+	compression = 0
+[http]
+	postBuffer = 1048576000
+	maxRequestBuffer = 100M
