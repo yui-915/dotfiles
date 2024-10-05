@@ -30,20 +30,15 @@ alias grep='grep --color'
 alias vim='nvim'
 alias nm='nmtui'
 alias cat='bat'
-alias c='clear'
 alias p='ping'
 alias n='node'
 
 
 # abbreviations
-# ...
+abbr -a 'c' 'clear'
 
 # shell integrations
 zoxide init fish --cmd cd | source
 
-# prompt (starship)
-function starship_transient_prompt_func
-  starship module character
-end
-starship init fish | source
-enable_transience
+# prompt
+oh-my-posh init fish --config ~/.config/ohmyposh/zen.toml | source
