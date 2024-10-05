@@ -1,4 +1,7 @@
-# If not running interactively, don't do anything
+# source global profile
+source /etc/profile
+
+# If not running interactively, don't do anything else
 [[ $- != *i* ]] && return
 
 # use fish as interactive shell
