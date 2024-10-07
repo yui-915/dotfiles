@@ -45,6 +45,7 @@ alias n='node'
 
 # abbreviations
 abbr -a 'c' 'clear'
+abbr -a 'cd..' 'cd ..'
 
 
 # shell integrations
